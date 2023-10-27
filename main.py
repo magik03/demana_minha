@@ -49,7 +49,7 @@ while True :
     print(Dates)
     if isinstance(Dates,list) :
         if len(Dates) == 0 : 
-            bot.edit_message_text(f"موعد االبطالة لولاية الاغواط مغلق حاليا.\n عدد المحاولات {counter} محاولة \n سوف يتم إعادة محاولة بعد دقيقة {str(check_frequency_minutes)} دقيقة.",
+            bot.edit_message_text(f"موعد البطالة لولاية الاغواط مغلق حاليا.\n عدد المحاولات {counter} محاولة \n سوف يتم إعادة محاولة بعد دقيقة {str(check_frequency_minutes)} دقيقة.",
                           chat_id=int(chat_id),
                           message_id=message.id)
         else :
